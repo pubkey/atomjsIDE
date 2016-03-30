@@ -7,7 +7,7 @@ This is a docker-container with the atom.io-IDE. It contains all necessary plugi
 1. git clone [https://github.com/danielsun174/atomjsIDE.git](https://github.com/danielsun174/atomjsIDE.git)
 2. cd atomjsIDE
 3. Edit the config.bash and include your workspace-folder
-4. bash run.bash
+4. sudo bash run.bash
 5. (It will take about 15 minutes when it runs for the first time.)
 
 ## Plugins
