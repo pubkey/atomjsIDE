@@ -3,7 +3,7 @@ FROM ubuntu:latest
 
 RUN echo "Version: 1.0"
 
-RUN apt-get -y update && apt-get -y upgrade
+RUN apt-get -y update --fix-missing && apt-get -y upgrade
 
 ##helpers (not essential)
 RUN apt-get install -y nano
