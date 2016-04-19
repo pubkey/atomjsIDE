@@ -10,6 +10,10 @@ This is a docker-container with the atom.io-IDE. It contains all necessary plugi
 4. sudo bash run.bash
 5. (It will take about 15 minutes when it runs for the first time.)
 
+## ( optional to start the container without root )
+6. usermod -a -G docker alice //replace alice with your username
+
+
 ## Plugins
 The following plugins are installed:
 
