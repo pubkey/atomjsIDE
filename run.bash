@@ -3,8 +3,9 @@
 
 SCRIPT="`readlink -e $0`"
 SCRIPTPATH="`dirname $SCRIPT`"
+echo $SCRIPTPATH
 
-source config.bash
+source ${SCRIPTPATH}/config.bash
 
 echo "## workspace: ##"
 echo $WORKSPACE
@@ -41,7 +42,7 @@ xhost +
 #make and run container
 echo "make container"
 echo "IMPORTANT: DONT close this terminal or atom.io will close"
-docker run -it --name $MODULENAME \
+docker run --name $MODULENAME \
 --privileged \
 -v $WORKSPACE:/workspace \
 -v /tmp/.X11-unix/:/tmp/.X11-unix/ \
