@@ -20,7 +20,6 @@ RUN apt-get install g++ -y
 
 #ATOM.io
 #@link https://hub.docker.com/r/jamesnetherton/docker-atom-editor/~/dockerfile/
-ENV ATOM_VERSION v1.6.1
 RUN apt-get update && \
     apt-get install git \
                     curl \
@@ -40,6 +39,7 @@ RUN apt-get update && \
                     gvfs-bin \
                     xdg-utils -y --no-install-recommends && \
     apt-get clean
+ENV ATOM_VERSION v1.8.0
 RUN curl -L https://github.com/atom/atom/releases/download/${ATOM_VERSION}/atom-amd64.deb > /tmp/atom.deb
 RUN dpkg -i /tmp/atom.deb
 RUN rm -f /tmp/atom.deb
