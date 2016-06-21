@@ -12,7 +12,7 @@ This is a docker-container with the atom.io-IDE. It contains all necessary plugi
 
 ## ( optional to start the container without root )
 6. sudo usermod -a -G docker alice //replace alice with your username
-
+7. restart your system
 
 ## Plugins
 The following plugins are installed:
