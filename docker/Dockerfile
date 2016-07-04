@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-FROM ubuntu:latest
+FROM ubuntu:14.04
 
 RUN echo "Version: 1.0"
 
