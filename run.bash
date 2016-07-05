@@ -16,7 +16,7 @@ MODULENAME="atomjside"
 echo "try install docker if not exists"
 if which docker >/dev/null; then
     echo "docker exists: wont install"
-    service docker start
+    #service docker start
 else
   echo "docker not exists: i will install"
   curl -sSL https://get.docker.com/ | sh
