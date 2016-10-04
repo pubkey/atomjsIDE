@@ -1,7 +1,6 @@
 activate-power-mode@0.8.1
 atom-beautify@0.29.11
 atom-typescript@10.1.7
-atom-typescript@10.1.6
 autocomplete-modules@1.6.1
 autocomplete-paths@1.0.2
 color-picker@2.2.2
