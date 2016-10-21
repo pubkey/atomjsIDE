@@ -39,7 +39,7 @@ RUN apt-get update && \
                     gvfs-bin \
                     xdg-utils -y --no-install-recommends && \
     apt-get clean
-ENV ATOM_VERSION v1.8.0
+ENV ATOM_VERSION v1.11.2
 RUN curl -L https://github.com/atom/atom/releases/download/${ATOM_VERSION}/atom-amd64.deb > /tmp/atom.deb
 RUN dpkg -i /tmp/atom.deb
 RUN rm -f /tmp/atom.deb
