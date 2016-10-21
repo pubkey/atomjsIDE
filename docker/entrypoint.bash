@@ -17,4 +17,7 @@ chmod -R 777 /root/.atom
 
 #/bin/bash
 
+
+cd /workspace
+
 /usr/bin/atom -w
