@@ -1,7 +1,7 @@
 # atomjsIDE
 This is a docker-container with the [atom.io](https://atom.io/)-IDE. It contains all necessary plugins for javascript-developement. (also for es6, typescript, docker, git).
 
-** THIS IS DOCKER, THIS WORKS WITH LINUX ONLY ! **
+**THIS IS DOCKER, THIS WORKS WITH LINUX ONLY !**
 
 ## Install
 1. `git clone https://github.com/pubkey/atomjsIDE.git`
