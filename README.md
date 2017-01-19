@@ -4,7 +4,7 @@ This is a docker-container with the [atom.io](https://atom.io/)-IDE. It contains
 ** THIS IS DOCKER, THIS WORKS WITH LINUX ONLY ! **
 
 ## Install
-1. git clone [https://github.com/pubkey/atomjsIDE.git](https://github.com/pubkey/atomjsIDE.git)
+1. `git clone https://github.com/pubkey/atomjsIDE.git`
 2. `cd atomjsIDE`
 3. Edit the config.bash and include your workspace-folder
 4. `sudo bash run.bash`
