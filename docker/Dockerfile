@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 FROM ubuntu:17.04
 
-ENV ATOM_VERSION 1.13.0
+ENV ATOM_VERSION 1.16.0
 RUN echo "Version: ${ATOM_VERSION}"
 
 RUN apt-get -y update --fix-missing && apt-get -y upgrade
@@ -14,6 +14,7 @@ RUN apt-get install -y lsof
 
 
 ## things to build npm-modules
+RUN apt-get install apt-utils -y
 RUN apt-get install build-essential -y
 RUN apt-get install python -y
 RUN apt-get install g++ -y
