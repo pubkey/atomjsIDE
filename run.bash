@@ -47,8 +47,7 @@ docker run --name $MODULENAME \
 -v $WORKSPACE:/workspace \
 -v /tmp/.X11-unix/:/tmp/.X11-unix/ \
 -v /dev/shm:/dev/shm \
--v $SCRIPTPATH/.atom:/root/.atom \
--v $SCRIPTPATH/mapped:/mapped \
+-v $SCRIPTPATH/mapped:/root/.atom \
 -e DISPLAY=${DISPLAY} \
  $MODULENAME
 
