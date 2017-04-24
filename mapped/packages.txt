@@ -1,6 +1,6 @@
 activate-power-mode@1.4.0
-atom-beautify@0.29.20
-atom-typescript@11.0.2
+atom-beautify@0.29.23
+atom-typescript@11.0.3
 autocomplete-modules@1.6.9
 autocomplete-paths@1.0.5
 busy-signal@1.4.0

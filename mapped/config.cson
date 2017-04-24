@@ -1,6 +1,12 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "f2d489bd-0afc-42d9-84f1-4f49072c3520"
   core:
     telemetryConsent: "no"
+  editor:
+    tabLength: 4
+    tabType: "soft"
   "exception-reporting":
     userId: "foobar"
   minimap:
