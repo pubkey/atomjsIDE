@@ -16,7 +16,7 @@ apm list --installed --bare > /root/.atom/packages_own.txt
 
 #/bin/bash
 
-chmod -R 777 /workspace
+#chmod -R 777 /workspace
 cd /workspace
 
 /usr/bin/atom -w
