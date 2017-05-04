@@ -1,5 +1,5 @@
 # atomjsIDE
-This is a docker-container with the [atom.io](https://atom.io/)-IDE. It contains all necessary plugins for javascript-developement. (also for es6, typescript, docker, git).
+This is a docker-container with the [atom.io](https://atom.io/)-IDE. It contains all necessary plugins for web-developement. (also for es6, typescript, docker, git, markdown, css, html and thousands more).
 
 **THIS IS DOCKER, THIS WORKS WITH LINUX ONLY !**
 
