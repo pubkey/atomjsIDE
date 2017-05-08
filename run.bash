@@ -7,8 +7,15 @@ echo $SCRIPTPATH
 
 source ${SCRIPTPATH}/config.bash
 
-echo "## workspace: ##"
-echo $WORKSPACE
+
+
+# throw if workspace-folder not set
+if [ ${WORKSPACE} = "/" ]; then
+   echo "Please set your workspace-folder at the config.bash"
+   exit 1
+else
+  echo "## Workspace-folder: ${WORKSPACE}"
+fi
 
 MODULENAME="atomjside"
 
