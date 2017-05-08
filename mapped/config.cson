@@ -1,7 +1,7 @@
 "*":
   "atom-beautify":
     general:
-      _analyticsUserId: "f2d489bd-0afc-42d9-84f1-4f49072c3520"
+      _analyticsUserId: ""
   core:
     telemetryConsent: "no"
   editor:
