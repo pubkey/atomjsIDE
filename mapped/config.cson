@@ -3,6 +3,9 @@
     general:
       _analyticsUserId: ""
   core:
+    disabledPackages: [
+      "wrap-guide"
+    ]
     telemetryConsent: "no"
   editor:
     tabLength: 4
