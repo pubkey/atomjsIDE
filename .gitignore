@@ -1,3 +1,9 @@
 .atom/
-mapped/packages_own.txt
 nohup.out
+mapped/packages_own.txt
+mapped/.apm/
+mapped/.node-gyp/
+mapped/blob-store/
+mapped/compile-cache/
+mapped/packages/
+mapped/storage/application.json
