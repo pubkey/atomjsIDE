@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 FROM ubuntu:17.10
 
-ENV ATOM_VERSION 1.17.2
+ENV ATOM_VERSION 1.18.0
 RUN echo "Version: ${ATOM_VERSION}"
 
 RUN apt-get -y update --fix-missing && apt-get -y upgrade
