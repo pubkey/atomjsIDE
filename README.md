@@ -1,5 +1,5 @@
 # atomjsIDE
-This is a docker-container with the [atom.io](https://atom.io/)-IDE. It contains all necessary plugins for web-developement. (also for es6, typescript, docker, git, markdown, css, html and thousands more).
+This is a docker-container with the [atom.io](https://atom.io/)-IDE. It contains all necessary plugins for web-developement. (also for es6, typescript, docker, git, markdown, css, html and thousands more). The awesome font [FiraCode](https://github.com/tonsky/FiraCode) is used as default.
 
 **THIS IS DOCKER, THIS WORKS WITH LINUX ONLY !**
 
