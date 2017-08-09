@@ -53,6 +53,12 @@ RUN curl -L https://github.com/atom/atom/releases/download/v${ATOM_VERSION}/atom
 RUN dpkg -i /tmp/atom.deb
 RUN rm -f /tmp/atom.deb
 
+# install fira-code
+RUN mkdir ~/.fonts
+RUN for type in Bold Light Medium Regular Retina; do \
+    wget -O ~/.fonts/FiraCode-${type}.ttf \
+    "https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-${type}.ttf?raw=true"; \
+done
 
 COPY entrypoint.bash /usr/bin/entrypoint.bash
 ENTRYPOINT /bin/bash /usr/bin/entrypoint.bash

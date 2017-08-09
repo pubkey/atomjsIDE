@@ -12,6 +12,7 @@
     ]
     telemetryConsent: "no"
   editor:
+    fontFamily: "Fira Code"
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
