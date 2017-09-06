@@ -7,3 +7,4 @@ mapped/blob-store/
 mapped/compile-cache/
 mapped/packages/
 mapped/storage/application.json
+mapped/github.cson

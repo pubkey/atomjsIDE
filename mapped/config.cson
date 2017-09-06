@@ -9,6 +9,7 @@
   core:
     disabledPackages: [
       "wrap-guide"
+      "github"
     ]
     telemetryConsent: "no"
   editor:
@@ -17,6 +18,8 @@
     tabType: "soft"
   "exception-reporting":
     userId: "foobar"
+  "linter-ui-default":
+    panelHeight: 69
   minimap:
     plugins:
       "git-diff": true

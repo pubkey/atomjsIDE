@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-FROM ubuntu:17.10
+FROM ubuntu:17.04
 
-ENV ATOM_VERSION 1.18.0
+ENV ATOM_VERSION 1.19.5
 RUN echo "Version: ${ATOM_VERSION}"
 
 RUN apt-get -y update --fix-missing && apt-get -y upgrade
@@ -21,13 +21,14 @@ RUN apt-get install g++ -y
 
 #ATOM.io
 #@link https://hub.docker.com/r/jamesnetherton/docker-atom-editor/~/dockerfile/
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-      ca-certificates \
-      curl \
-      fakeroot \
-      gconf2 \
-      gconf-service \
+RUN apt-get update
+RUN apt-get install ca-certificates -y
+RUN apt-get install curl -y
+RUN apt-get install fakeroot -y
+RUN apt-get install gconf2 -y
+RUN apt-get install gconf-service -y
+
+RUN apt-get install -y --no-install-recommends \
       git \
       gvfs-bin \
       libasound2 \
@@ -39,6 +40,8 @@ RUN apt-get update && \
       libxkbfile1 \
       libxss1 \
       libxtst6 \
+      libgl1-mesa-glx \
+      libgl1-mesa-dri \
       python \
       xdg-utils && \
     apt-get clean && \
