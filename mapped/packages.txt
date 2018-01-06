@@ -1,12 +1,12 @@
-activate-power-mode@2.6.0
+activate-power-mode@2.7.0
 atom-beautify@0.30.9
 atom-typescript@11.0.10
 autocomplete-modules@1.8.0
 autocomplete-paths@2.12.1
 busy-signal@1.4.3
 color-picker@2.2.5
-docblockr@0.13.2
-file-icons@2.1.14
+docblockr@0.13.5
+file-icons@2.1.15
 git-time-machine@1.5.9
 highlight-selected@0.13.1
 intentions@1.1.5
@@ -15,7 +15,7 @@ language-csv@1.1.2
 language-docker@1.1.8
 language-ethereum@0.3.9
 language-gitignore@0.3.0
-language-gradle@0.0.3
+language-gradle@0.0.5
 language-ini@1.19.0
 language-vue@0.23.1
 linter@2.2.0
@@ -27,9 +27,9 @@ minimap@4.29.7
 minimap-git-diff@4.3.1
 minimap-highlight-selected@4.6.1
 minimap-pigments@0.2.2
-pdf-view@0.61.0
+pdf-view@0.62.0
 pigments@0.40.2
-pinned-tabs@2.0.1
+pinned-tabs@2.0.3
 project-manager@3.3.5
 react@0.17.0
 standard-formatter@2.8.0
