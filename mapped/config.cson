@@ -6,6 +6,8 @@
   "atom-beautify":
     general:
       _analyticsUserId: ""
+  "bracket-matcher":
+    autocompleteBrackets: false
   core:
     disabledPackages: [
       "wrap-guide"
