@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-FROM ubuntu:17.04
+FROM ubuntu:17.10
 
 
 # see https://atom.io/releases
