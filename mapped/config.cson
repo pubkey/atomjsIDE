@@ -12,6 +12,7 @@
     disabledPackages: [
       "wrap-guide"
       "github"
+      "spell-check"
     ]
     telemetryConsent: "no"
   editor:
