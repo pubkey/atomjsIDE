@@ -26,5 +26,8 @@ chown $USER:$USER .
 touch testFile
 gvfs-trash testFile
 
+echo "atom --version:"
+/usr/bin/atom --version
 
+echo "Starting atom. Do not close this terminal or atom will close"
 /usr/bin/atom -w

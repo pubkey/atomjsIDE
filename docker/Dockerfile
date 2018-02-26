@@ -3,7 +3,7 @@ FROM ubuntu:17.10
 
 
 # see https://atom.io/releases
-ENV ATOM_VERSION 1.23.2
+ENV ATOM_VERSION 1.24.0
 RUN echo "Version: ${ATOM_VERSION}"
 
 RUN apt-get -y update --fix-missing && apt-get -y upgrade
