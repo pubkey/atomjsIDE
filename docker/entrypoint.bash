@@ -19,13 +19,6 @@ apm list --installed --bare > /root/.atom/packages_own.txt
 #chmod -R 777 /workspace
 cd /workspace
 
-
-# make shurt gvfs-trash works
-mkdir -p .Trash-1000/{expunged,files,info}
-chown $USER:$USER .
-touch testFile
-gvfs-trash testFile
-
 echo "atom --version:"
 /usr/bin/atom --version
 
