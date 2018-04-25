@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-FROM ubuntu:17.10
+FROM ubuntu:18.04
 
 
 # see https://atom.io/releases
-ENV ATOM_VERSION 1.25.1
+ENV ATOM_VERSION 1.26.0
 RUN echo "Version: ${ATOM_VERSION}"
 
 RUN apt-get -y update --fix-missing && apt-get -y upgrade
