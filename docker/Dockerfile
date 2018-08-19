@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 
 
 # see https://atom.io/releases
-ENV ATOM_VERSION 1.26.0
+ENV ATOM_VERSION 1.29.0
 RUN echo "Version: ${ATOM_VERSION}"
 
 RUN apt-get -y update --fix-missing && apt-get -y upgrade
@@ -36,9 +36,12 @@ RUN apt-get install -y --no-install-recommends \
       libasound2 \
       libcap2 \
       libgconf-2-4 \
+      libgcrypt20 \
       libgtk2.0-0 \
+      libgtk-3-0 \
       libnotify4 \
       libnss3 \
+      libx11-xcb1 \
       libxkbfile1 \
       libxss1 \
       libxtst6 \
