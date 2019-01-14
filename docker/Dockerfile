@@ -1,17 +1,15 @@
 #!/usr/bin/env bash
-FROM ubuntu:18.04
+FROM ubuntu:18.10
 
 
 # see https://atom.io/releases
-ENV ATOM_VERSION 1.32.1
+ENV ATOM_VERSION 1.34.0
 RUN echo "Version: ${ATOM_VERSION}"
 
 RUN apt-get -y update --fix-missing && apt-get -y upgrade
 
 ##helpers (not essential)
-RUN apt-get install -y nano
 RUN apt-get install -y wget
-RUN apt-get install -y htop
 RUN apt-get install -y lsof
 
 
