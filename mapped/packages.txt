@@ -7,7 +7,6 @@ autocomplete-paths@2.12.2
 busy-signal@2.0.0
 color-picker@2.3.0
 docblockr@0.13.7
-etheratom@4.4.6
 file-icons@2.1.27
 git-time-machine@2.1.0
 highlight-selected@0.14.0
