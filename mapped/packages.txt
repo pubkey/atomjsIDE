@@ -1,6 +1,5 @@
 activate-power-mode@2.7.0
 atom-beautify@0.33.4
-atom-solidity-linter@0.0.11
 atom-typescript@12.7.3
 autocomplete-modules@2.2.6
 autocomplete-paths@2.12.2
@@ -10,13 +9,10 @@ docblockr@0.13.7
 file-icons@2.1.27
 git-time-machine@2.1.0
 highlight-selected@0.14.0
-intentions@1.1.5
 javascript-snippets@1.2.1
 language-csv@1.1.2
 language-docker@1.1.8
 language-gitignore@0.3.0
-language-gradle@0.1.0
-language-groovy@0.7.0
 language-ini@1.20.0
 language-vue@0.24.0
 linter@2.3.0
@@ -35,7 +31,6 @@ pinned-tabs@2.1.1
 project-manager@3.3.6
 react@0.18.0
 split-diff@1.5.4
-standard-formatter@2.8.0
 svg-preview@0.14.0
 swackets@0.35.0
 tablr@1.8.3
