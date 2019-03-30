@@ -3,7 +3,7 @@ FROM ubuntu:18.10
 
 
 # see https://atom.io/releases
-ENV ATOM_VERSION 1.35.0
+ENV ATOM_VERSION 1.35.1
 RUN echo "Version: ${ATOM_VERSION}"
 
 RUN apt-get -y update --fix-missing && apt-get -y upgrade
